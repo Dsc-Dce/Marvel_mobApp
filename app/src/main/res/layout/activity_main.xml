@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/actionbar_gradient">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:title="Welcome to Marvel"
+        android:background="#00000000"
+        app:titleTextColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+    <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_character"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Characters"
+                android:button="@null"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:checked="true"
+                android:background="@drawable/selector"/>
+            <RadioButton
+                android:id="@+id/rb_movie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Movies"
+                android:button="@null"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:checked="false"
+                android:background="@drawable/selector"/>
+            <RadioButton
+                android:id="@+id/rb_comic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Comics"
+                android:button="@null"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:checked="false"
+                android:background="@drawable/selector"/>
+        </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginBottom="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

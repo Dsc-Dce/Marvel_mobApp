@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:outlineSpotShadowColor="@color/black">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/tv_L1"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="Dr Strange"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_L2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="real life name"
+            android:textColor="#373737"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:padding="2dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/tv_L3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:inputType="textMultiLine"
+            android:padding="2dp"
+            android:text="Now this description go for multiple lines and i want you to adjust to it."
+            android:textColor="#630F10"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/bt_KM"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Know More"
+            android:textSize="12sp"
+            android:layout_gravity="left"
+            android:padding="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/white"
+            android:background="@color/red_background"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
