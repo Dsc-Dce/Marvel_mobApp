@@ -1,9 +1,11 @@
-<img src="./assets/images/readme-logo.jpeg"  alt="logo" width="900"  align="center"/>
-
+![WhatsApp Image 2021-09-26 at 6 08 35 PM](https://user-images.githubusercontent.com/56972234/135505931-e8c06d71-f14c-471b-9ece-018d16da6ac0.jpeg)
 
 # *_SourceTember_* #
 ### *A way towards open-source 💻* ###
+
 <br>
+
+![readme-gif](https://user-images.githubusercontent.com/56972234/135506019-4e5e1be0-c4bb-4fa9-aec2-8bc80b0d01b1.gif)
 
 
 # What is SourceTember? #
