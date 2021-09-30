@@ -35,7 +35,7 @@ Create a branch
 ``` 
 git commit -m 'Commit message' 
 ```
-Adding your details in #Contributors.md
+Adding your details in [Contributors.md](https://github.com/Dsc-Dce/Marvel_mobApp/blob/master/Contributors.md)
 
 Add the following line of code and update link and name by yours.
 
