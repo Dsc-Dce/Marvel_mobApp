@@ -45,7 +45,9 @@ Keeping all that in our dearest minds let's create a clone website similar to Ma
 
 Let's go and make Stan Lee proud!!!
 
+# Techs used : #
 
+<img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white">
 
 # What you will be doing? #
 
