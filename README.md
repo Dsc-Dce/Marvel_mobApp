@@ -5,7 +5,6 @@
 
 <br>
 
-![readme-gif](https://user-images.githubusercontent.com/56972234/135506019-4e5e1be0-c4bb-4fa9-aec2-8bc80b0d01b1.gif)
 
 
 # What is SourceTember? #
@@ -27,7 +26,7 @@ A month-long celebration from October 1st - 31st sponsored by Digital Ocean and 
 
 
 
-<img src="./assets/images/readme-gif.gif"  alt="logo" align="center"/>
+![readme-gif](https://user-images.githubusercontent.com/56972234/135506019-4e5e1be0-c4bb-4fa9-aec2-8bc80b0d01b1.gif)
 
 
 
@@ -55,4 +54,4 @@ This repository is open to all members of the GitHub community. Any member may c
 
 ## Contributing
 
-Refer to [CONTRIBUTING.md](https://github.com/Dsc-Dce/Marvel-web-app/blob/main/CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md](https://github.com/Dsc-Dce/Marvel_mobApp/blob/master/CONTRIBUTING.md)
