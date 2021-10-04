@@ -2,16 +2,15 @@ package com.example.marvel
 
 import android.content.Intent
 import android.os.*
-import androidx.appcompat.app.AppCompatActivity
-import android.view.Window
 import android.view.WindowInsets
 import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
-        //setting screen to full screen
+        // setting screen to full screen
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
         } else {
@@ -20,10 +19,13 @@ class SplashScreen : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-        //putting delay
-        Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this,MainActivity::class.java))
-            finish()
-        },2000)
+        // putting delay
+        Handler(Looper.getMainLooper()).postDelayed(
+            {
+                startActivity(Intent(this, MainActivity::class.java))
+                finish()
+            },
+            2000
+        )
     }
 }
