@@ -8,6 +8,8 @@ object constants {
         var arChar = ArrayList<AllDataClass>()
         arChar=addData(arChar,AllDataClass(1,R.drawable.ironman,"Iron Man","Tony Stark","Genius. Billionaire. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.","https://www.marvel.com/characters/iron-man-tony-stark"))
         return arChar
+        arChar=addData(arChar,AllDataClass(2,R.drawable.thor,"Thor","Thor Odinson","Demi-God. Prince. Asguardian. The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.","https://www.marvel.com/characters/thor-thor-odinson"))
+        return arChar
     }
     //function to get list of movies
     fun getMovies():ArrayList<AllDataClass>{
